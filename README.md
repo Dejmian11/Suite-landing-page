@@ -15,12 +15,12 @@ This is a solution to the [Suite landing page challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](https://github.com/Dejmian11/Equalizer-landing-page/blob/master/assets/design/Screenshot%20-%20Frontend%20Mentor%20Equalizer%20landing%20page.png)
+![](https://github.com/Dejmian11/Suite-landing-page/blob/master/assets/design/Screenshot%202023%20-%20%20Frontend%20Mentor%20Suite%20landing%20page.png)
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/equalizer-landing-page-build-with-sass-gor8vGsg80)
-- Live Site URL: [Live](https://astonishing-blini-a5dfb2.netlify.app/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/suite-landing-page-build-with-sass-8HqUKBkial)
+- Live Site URL: [Live](https://enchanting-choux-1b9101.netlify.app/)
 
 ## My process
 

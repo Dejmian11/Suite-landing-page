@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+
+    <script type="module" src="main.js"></script>
+
+    <title>Frontend Mentor | Suite landing page</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="row">
+          <a href="/" class="logo">
+            <img src="assets/images/logo.svg" alt="suite" />
+          </a>
+
+          <a href="#" class="btn--outline"> Request Beta Access </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="wrapper">
+          <div class="hero-section__container grid">
+            <div class="hero-section__content grid">
+              <h1 class="heading-primary">
+                A
+                <span class="fw-bold"
+                  >super <span class="curved-line">solution</span></span
+                >
+                for your
+                <span class="fw-bold">business.</span>
+              </h1>
+              <p class="hero-section__description">
+                Our marketing and sales automations help you scale your outreach
+                to get more leads for your company.
+              </p>
+              <a href="#" class="btn-primary"> Request Beta Access </a>
+            </div>
+
+            <picture class="hero-section__img">
+              <source
+                type="image/webp"
+                srcset="
+                  assets/images/image-hero-portrait.webp    1x,
+                  assets/images/image-hero-portrait@2x.webp 2x
+                "
+                media="(min-width: 48em)"
+              />
+              <source
+                type="image/webp"
+                srcset="
+                  assets/images/image-hero-landscape.webp    1x,
+                  assets/images/image-hero-landscape@2x.webp 2x
+                "
+              />
+              <source
+                type="image/png"
+                srcset="
+                  assets/images/image-hero-portrait.png    1x,
+                  assets/images/image-hero-portrait@2x.png 2x
+                "
+                media="(min-width: 48em)"
+              />
+              <source
+                type="image/png"
+                srcset="
+                  assets/images/image-hero-landscape.png    1x,
+                  assets/images/image-hero-landscape@2x.png 2x
+                "
+              />
+              <img
+                src="assets/images/image-hero-landscape.png"
+                alt="suite app"
+                loading="lazy"
+              />
+            </picture>
+
+            <div
+              class="hero-section__stats grid md-grid-flow-col justify-items-center"
+            >
+              <div>
+                <p>2K+</p>
+                <h4 class="heading-quaternary">Companies</h4>
+              </div>
+              <div>
+                <p>8</p>
+                <h4 class="heading-quaternary">Languages</h4>
+              </div>
+              <div>
+                <p>1.2M</p>
+                <h4 class="heading-quaternary">Leads</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial-section">
+        <div class="wrapper">
+          <div class="testimonial-section__container grid">
+            <div class="testimonial-section__img-box grid justify-items-center">
+              <picture class="testimonial-section__img">
+                <source
+                  type="image/webp"
+                  srcset="
+                    assets/images/image-jeremy-large.webp    1x,
+                    assets/images/image-jeremy-large@2x.webp 2x
+                  "
+                  media="(min-width: 62em)"
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    assets/images/image-jeremy-small.webp    1x,
+                    assets/images/image-jeremy-small@2x.webp 2x
+                  "
+                />
+                <source
+                  type="image/png"
+                  srcset="
+                    assets/images/image-jeremy-large.png    1x,
+                    assets/images/image-jeremy-large@2x.png 2x
+                  "
+                  media="(min-width: 62em)"
+                />
+                <source
+                  type="image/png"
+                  srcset="
+                    assets/images/image-jeremy-small.png    1x,
+                    assets/images/image-jeremy-small@2x.png 2x
+                  "
+                />
+                <img
+                  src="assets/images/image-jeremy-small.png"
+                  alt="Jeremy Robinson"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+
+            <div class="testimonial-section__content grid">
+              <h2 class="heading-secondary">
+                It just <span class="fw-bold">works.</span>
+              </h2>
+              <p>
+                “I really like how it is an all-in-one solution that handle many
+                of the tasks that you would normally need separate tools to do
+                the same job. This thing is a miracle worker.”
+              </p>
+              <div>
+                <h3 class="heading-tertiary">Jeremy Robinson</h3>
+                <h4 class="heading-quaternary">CMO, Fylo</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__container grid md-grid-flow-col">
+          <a href="/" class="logo">
+            <img src="assets/images/logo.svg" alt="suite" />
+          </a>
+
+          <p>Copyright - Suite</p>
+
+          <ul class="social-list" role="list" aria-label="Social links">
+            <li>
+              <a aria-label="facebook" href="#">
+                <svg class="social-list__icon">
+                  <use
+                    xlink:href="assets/icons/social-icons.svg#icon-facebook"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a aria-label="twitter" href="#">
+                <svg class="social-list__icon">
+                  <use
+                    xlink:href="assets/icons/social-icons.svg#icon-twitter"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a aria-label="instagram" href="#">
+                <svg class="social-list__icon">
+                  <use
+                    xlink:href="assets/icons/social-icons.svg#icon-instagram"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

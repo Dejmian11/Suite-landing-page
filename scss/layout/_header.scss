@@ -1,0 +1,13 @@
+@use '../abstracts/' as *;
+
+.header {
+  padding-block: var(--size-500);
+
+  @include respond(md) {
+    padding-block: var(--size-800);
+  }
+
+  @include respond(lg) {
+    padding-block: 3.125rem;
+  }
+}

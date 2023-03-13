@@ -1,0 +1,15 @@
+@use '../abstracts/' as *;
+
+.social-list {
+  display: flex;
+  gap: var(--size-600);
+
+  & a:is(:hover, :focus) {
+    opacity: 0.7;
+  }
+
+  &__icon {
+    width: 1.25rem;
+    aspect-ratio: 1;
+  }
+}

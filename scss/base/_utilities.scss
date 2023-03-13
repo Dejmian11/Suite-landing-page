@@ -1,0 +1,32 @@
+@use '../abstracts/' as *;
+
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+
+.curved-line {
+  --line-height: 1.25rem;
+
+  position: relative;
+  padding-top: calc(var(--line-height) + var(--size-200));
+
+  @include respond(md) {
+    --line-height: 1.875rem;
+  }
+
+  @include respond(md) {
+    --line-height: 2.5rem;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: var(--line-height);
+    background-image: url(../assets/images/pattern-curved-line-1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

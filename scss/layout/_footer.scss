@@ -1,0 +1,30 @@
+@use '../abstracts/' as *;
+
+.footer {
+  padding-block: var(--size-900) 5rem;
+  font-size: var(--fs-footer);
+
+  @include respond(md) {
+    padding-block: 4.5rem;
+  }
+
+  @include respond(lg) {
+    padding-top: 5.9375rem;
+  }
+
+  &__container {
+    justify-items: center;
+
+    & > :first-child {
+      @include respond(md) {
+        justify-self: start;
+      }
+    }
+
+    & > :last-child {
+      @include respond(md) {
+        justify-self: end;
+      }
+    }
+  }
+}

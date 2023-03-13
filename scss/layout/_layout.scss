@@ -1,0 +1,45 @@
+@use '../abstracts/' as *;
+
+.wrapper {
+  padding-inline: var(--size-400);
+  margin-inline: auto;
+
+  @include respond(sm) {
+    max-width: 540px;
+  }
+
+  @include respond(md) {
+    padding-inline: 0;
+    max-width: 689px;
+  }
+
+  @include respond(lg) {
+    max-width: 960px;
+  }
+
+  @include respond(xl) {
+    max-width: 1110px;
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  gap: var(--content-spacing, 2rem);
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.md-grid-flow-col {
+  @include respond(md) {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+}

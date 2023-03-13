@@ -1,0 +1,10 @@
+@use '../abstracts/' as *;
+
+a,
+a::before,
+a::after,
+button,
+button::before,
+button::after {
+  transition: all 0.25s;
+}
